@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bookhaven.css">
+    <title>Button with Image</title>
+    <style>
+        .button-container {
+            display: flex;
+            justify-content: right;
+            
+        }
+        .button {
+            display: flex;
+            align-items: center;
+            
+            background-color: #0078D4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button img {
+            margin-left: 0px;
+        }
+        .column{
+            width: 32.9%;
+        }
+        .header:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .right{
+            float: right;
+        }
+        .middle{
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="column left" style="background-color: blueviolet;"><img align="left" src = "Client3_LogoPalette2_5C2E5C.png" alt="Book Haven Logo" id="logo"></div>
+        <div class="column middle" style="background-color: azure;"><h1 style="text-align: center;">Test Text</h1></div>
+        <div class="button-container column right" style="background-color: aqua;">
+            
+            <button class="button">
+                
+                <img src="avez1anz5.webp" alt="Button Image" width="64" height="64">
+            </button>
+        </div>
+    </div>
+    
+</body>
+</html>
