@@ -5,17 +5,56 @@
         <meta name = "viewport" content="width=device-width, initial-scale=1.0">
         <title>Book Haven Community</title>
         <link rel="stylesheet" href="bookhaven.css">
-       
-
+        <style>
+            .button-container {
+                display: flex;
+                justify-content: right;
+                
+            }
+            .button {
+                display: flex;
+                align-items: center;
+                
+                
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .button img {
+                margin-left: 0px;
+            }
+            .column{
+                width: 32.65%;
+            }
+            .header:after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .right{
+                float: right;
+            }
+            .middle{
+                justify-content: center;
+            }
+        </style>
    </head> 
 
 
 <body>
-        <header>
-            <img align="left" src = "Client3_LogoPalette2_5C2E5C.png" alt="Book Haven Logo" id="logo">
-            <img align="right" src="avez1anz5.webp" alt="Shopping Cart" id="sc">
-            <h1>Book Haven Community</h1>
-        </header>
+    <header>
+    <div class="header" style="background-color: #5C2E5C;">
+        <div class="column left"><img align="left" src = "Client3_LogoPalette2_5C2E5C.png" alt="Book Haven Logo" id="logo"></div>
+        <div class="column middle"><h1 style="text-align: center;">Community Events</h1></div>
+        <div class="button-container column right">
+            
+            <button class="button">
+                
+                <img src="avez1anz5.webp" alt="Button Image" width="64" height="64">
+            </button>
+        </div>
+    </div>
+</header>
         <nav>
             <a href="Home.html">Home</a>
             <a href="Gallery.html">Books</a>
