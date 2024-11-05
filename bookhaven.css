@@ -82,11 +82,11 @@ footer {
     height: 64px;
     background-color: #fff;
 }
-#sc{
+/*#sc{
     border: 2px solid #000;
     width: 64px;
     height: 64px;
-}
+}*/
 
 #bottombook{
     padding-bottom: 2em;
@@ -121,14 +121,14 @@ footer {
 #communitytextspacing{
     padding-bottom: 4em;
 }
-#shoppingcart{
+/*#shoppingcart{
     width: 64px;
     height: 64px;
     top: 2px;
     right: 5px;
     position: absolute;
     border: 2px solid #000;
-}
+}*/
 
 @media only screen and (max-width: 650px) {
     .column{
@@ -142,6 +142,9 @@ footer {
     }
     .book-details{
         text-wrap: stable;
+    }
+    div{
+        width: 100%;
     }
     
 }
