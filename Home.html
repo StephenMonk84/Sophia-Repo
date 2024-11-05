@@ -5,20 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Haven Home</title>
     <link rel="stylesheet" href="bookhaven.css">
+    <style>
+        .button-container {
+            display: flex;
+            justify-content: right;
+            
+        }
+        .button {
+            display: flex;
+            align-items: center;
+            
+            
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button img {
+            margin-left: 0px;
+        }
+        .column{
+            width: 32.5%;
+        }
+        .header:after{
+            content: "";
+            display: table;
+            clear: both;
+       } 
+        .right{
+            float: right;
+        }
+        .middle{
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <img align="left" src = "Client3_LogoPalette2_5C2E5C.png" alt="Book Haven Logo" id="logo">
-        <img align="right" src="avez1anz5.webp" alt="Shopping Cart" id="sc">
-        <h1>Welcome to the Book Haven Bookstore</h1>
+        <header>
+            <div id="page-container">
+                <div class="header" style="background-color: #5C2E5C; width: 100%;">
+                    <div class="column left"><img align="left" src = "Client3_LogoPalette2_5C2E5C.png" alt="Book Haven Logo" id="logo"></div>
+                    <div class="column middle"><h1 style="text-align: center;">Book Haven Home</h1></div>
+                    <div class="button-container column right">
+                
+                        <button class="button">
+                    
+                            <img src="avez1anz5.webp" alt="Button Image" width="64" height="64">
+                        </button>
+                    </div>
+                </div>
+            </div>
     </header>
+    <div id="page-container">   
     <nav>
         <a href="Home.html">Home</a>
         <a href="Gallery.html">Books</a>
         <a href="AboutUs.html">About Us</a>
         <a href="Community.html">Community</a>
     </nav>
-    <div id="page-container">
+    
         <div id="content-wrap">
             <div class="container">
                 <h1 id="eventshome">Upcoming Events at the Store</h1>
@@ -58,12 +102,7 @@
                     </div>
                 </div>
             </div>
-            <div class="homerow">
-                <h1>Select your type of books</h1>
-                <div class="column left"><button id="homebuttons">Fiction</button></div>
-                <div class="column right"><button id="homebuttons">Non-Fiction</button></div>
-                
-            </div>
+            
             
         </div>
         <footer>
