@@ -37,6 +37,10 @@
             .middle{
                 justify-content: center;
             }
+            td{
+                font-size: 24px;
+                padding: 5px;
+            }
         </style>
 
    </head> 
@@ -65,23 +69,65 @@
             <a href="AboutUs.html">About Us</a>
             <a href="Community.html">Community</a>
         </nav>
-            <div id="content-wrap">
-                <div id="communitytextspacing">
+            <div id="content-wrap" id="bottombook">
+                <div id="communitytextspacing" id="bottombook">
+                    <h1>About Us</h1>
                     <p>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, voluptatum? Labore iusto, deserunt necessitatibus ipsa doloribus provident! Quae amet a eos quaerat necessitatibus optio sit blanditiis architecto corporis velit veritatis aspernatur natus fugit, temporibus ratione.</p>
-                        <p>Illum deserunt omnis consectetur ad vel eveniet vero? Itaque laudantium rem blanditiis, veniam voluptate vitae quam minus harum laboriosam perferendis saepe magni, maxime reiciendis quisquam labore voluptatibus at esse sunt commodi, laborum magnam sit est.</p>
-                        <p>Ratione impedit explicabo earum! Quis laborum molestiae, consectetur nam nostrum corporis sit exercitationem enim magni veniam? Vero rem officiis dicta dignissimos doloremque, perspiciatis qui necessitatibus enim reprehenderit nisi ratione dolorem quam inventore, nobis sed nemo.</p>
-                        <p>Nihil facere iusto vitae doloribus. A adipisci maxime ratione deserunt asperiores sed fugit quo deleniti exercitationem, quis tenetur officiis temporibus vero distinctio rem enim quia, ut quod repellat. Sunt alias pariatur reiciendis sit culpa fugiat!</p>
-                        <p>Nihil voluptatum expedita labore, eos doloribus in et quidem ratione libero incidunt. Perferendis, eos officia. Expedita, ea temporibus sed deserunt beatae officia eum distinctio eligendi hic magnam vitae quia laudantium quisquam? Eius explicabo repellat natus?</p>
-                        <p>Laborum tenetur alias debitis nihil suscipit fugiat laboriosam voluptate provident, voluptatem sunt ipsam molestiae! Velit, accusamus veniam inventore hic excepturi odio quibusdam sequi repudiandae eos, quia iusto, tempore voluptatem maxime eaque nisi expedita cum quod!</p>
-                        <p>Veritatis odit explicabo soluta at maiores. Facere molestias eos, ratione, asperiores velit corporis esse odio at animi sequi et. Ex nesciunt ab itaque saepe rerum dolore consequatur eius eos porro, officiis impedit ratione minus maiores?</p>
+                        <p id="textsizing">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, voluptatum? Labore iusto, deserunt necessitatibus ipsa doloribus provident! Quae amet a eos quaerat necessitatibus optio sit blanditiis architecto corporis velit veritatis aspernatur natus fugit, temporibus ratione.</p>
+                        <p id="textsizing">Illum deserunt omnis consectetur ad vel eveniet vero? Itaque laudantium rem blanditiis, veniam voluptate vitae quam minus harum laboriosam perferendis saepe magni, maxime reiciendis quisquam labore voluptatibus at esse sunt commodi, laborum magnam sit est.</p>
+                        <p id="textsizing">Ratione impedit explicabo earum! Quis laborum molestiae, consectetur nam nostrum corporis sit exercitationem enim magni veniam? Vero rem officiis dicta dignissimos doloremque, perspiciatis qui necessitatibus enim reprehenderit nisi ratione dolorem quam inventore, nobis sed nemo.</p>
+                        <p id="textsizing">Nihil facere iusto vitae doloribus. A adipisci maxime ratione deserunt asperiores sed fugit quo deleniti exercitationem, quis tenetur officiis temporibus vero distinctio rem enim quia, ut quod repellat. Sunt alias pariatur reiciendis sit culpa fugiat!</p>
+                        <p id="textsizing">Nihil voluptatum expedita labore, eos doloribus in et quidem ratione libero incidunt. Perferendis, eos officia. Expedita, ea temporibus sed deserunt beatae officia eum distinctio eligendi hic magnam vitae quia laudantium quisquam? Eius explicabo repellat natus?</p>
+                        <p id="textsizing">Laborum tenetur alias debitis nihil suscipit fugiat laboriosam voluptate provident, voluptatem sunt ipsam molestiae! Velit, accusamus veniam inventore hic excepturi odio quibusdam sequi repudiandae eos, quia iusto, tempore voluptatem maxime eaque nisi expedita cum quod!</p>
+                        <p id="textsizing">Veritatis odit explicabo soluta at maiores. Facere molestias eos, ratione, asperiores velit corporis esse odio at animi sequi et. Ex nesciunt ab itaque saepe rerum dolore consequatur eius eos porro, officiis impedit ratione minus maiores?</p>
                     </p>
-                    
-
+                    <h1>Business Hours</h1>
+                    <div>
+                        <table border="1">
+                            <tr>
+                                <td>Monday-Friday</td>
+                                <td>9am to 8pm</td>                              
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>10am to 6pm</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>11am to 5pm</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <hr>
+                    <h1>Contact Us</h1>
+                    <form id="footerspacing">
+                        <label for="custname">Name:</label>
+                        <input type="text" id="custname" name="custname"><br><br>
+                        <label for="custemail">Email:</label>
+                        <input type="text" id="custemail" name="custemail"><br><br>
+                        <label for="custphone">Phone Number:</label>
+                        <input type="text" id="custphone" name="custphone"><br>
+                        <p><label for="custfeedback">Feedback:</label></p>
+                        <textarea id="custfeedback" name="custfeedback" rows="4" columns="64"></textarea><br><br>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Clear Form">
+                    </form>
                 </div>
-                
+                <div id="footerspacing"></div> 
             </div>
-            <footer>
+                <footer>
+                    <nav style="background-color: #5C2E5C;">
+                        <a href="Home.html">Home</a>
+                        <a href="Gallery.html">Books</a>
+                        <a href="AboutUs.html">About Us</a>
+                        <a href="Community.html">Community</a>
+                    </nav>
+                    <form>
+                        <label for="subemail">Want to know what's going on? Subscribe:</label>
+                        <input type="text" name="subemail" value="Enter your email address">
+                        <input type="submit" value="Subscribe">
+                    </form>
                 <p>© 2024 Book Haven Bookstore. All rights reserved.</p>
             </footer>
         </div>
